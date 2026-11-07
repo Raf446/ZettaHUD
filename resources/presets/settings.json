@@ -1,0 +1,6 @@
+{
+  "version": "3.0.0",
+  "autostart": false,
+  "toggleHotkey": "Ctrl+Shift+F12",
+  "compactHotkey": "Ctrl+Shift+F11"
+}

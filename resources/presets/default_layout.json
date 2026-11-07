@@ -1,0 +1,96 @@
+{
+  "$schema": "https://zettahud.dev/schemas/v3.3.0/layout.json",
+  "version": "3.3.0",
+  "profileName": "ZettaHUD v3.3 Telemetry Profile",
+  "layoutMode": "CARD_VERTICAL",
+  "offsetX": 24,
+  "offsetY": 28,
+  "bgOpacity": 0.88,
+  "cornerRadius": 8,
+  "fontFamily": "JetBrains Mono",
+  "fontSize": 13,
+  "showGraph": true,
+  "graphHeight": 38,
+  "graphColorHex": "0xFF4ADE80",
+  "hideWhenIdle": false,
+  "metrics": [
+    {
+      "id": "fps_engine",
+      "label": "FPS",
+      "colorHex": "0xFFFB7185",
+      "isVisible": true
+    },
+    {
+      "id": "fps_1low",
+      "label": "1% LOW",
+      "colorHex": "0xFF34D399",
+      "isVisible": true
+    },
+    {
+      "id": "gpu_load",
+      "label": "GPU",
+      "colorHex": "0xFF22C55E",
+      "isVisible": true
+    },
+    {
+      "id": "gpu_temp",
+      "label": "GPU_TMP",
+      "colorHex": "0xFF34D399",
+      "isVisible": true
+    },
+    {
+      "id": "cpu_load",
+      "label": "CPU",
+      "colorHex": "0xFF38BDF8",
+      "isVisible": true
+    },
+    {
+      "id": "cpu_temp",
+      "label": "CPU_TMP",
+      "colorHex": "0xFFFB923C",
+      "isVisible": true
+    },
+    {
+      "id": "vram_ded",
+      "label": "VRAM",
+      "colorHex": "0xFFC084FC",
+      "isVisible": true
+    },
+    {
+      "id": "vram_shared",
+      "label": "SH_VRAM",
+      "colorHex": "0xFFA855F7",
+      "isVisible": false
+    },
+    {
+      "id": "ram_sys",
+      "label": "RAM",
+      "colorHex": "0xFFF472B6",
+      "isVisible": true
+    },
+    {
+      "id": "proc_ram",
+      "label": "PROC_MEM",
+      "colorHex": "0xFFE879F9",
+      "isVisible": false
+    },
+    {
+      "id": "disk_io",
+      "label": "NVME_IO",
+      "colorHex": "0xFFFB923C",
+      "isVisible": false
+    },
+    {
+      "id": "net_rate",
+      "label": "NET_IO",
+      "colorHex": "0xFF2DD4BF",
+      "isVisible": false
+    },
+    {
+      "id": "pwr_batt",
+      "label": "BATT_PWR",
+      "colorHex": "0xFFFACC15",
+      "isVisible": false
+    }
+  ]
+}
